@@ -140,15 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Zombie.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Zombie.h" />
+    <ClCompile Include="StoryLine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="\\Mac\Home\Desktop\StoryA2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StoryLine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
